@@ -13,3 +13,5 @@ The rule is that I have to recreate the look of the website *without peeking at 
 I'm just creating the one page, so there will be just the one index.html file. There will be a style.css file. There will be no javascript. All links will be dead.
 
 here goes
+
+the other note is that all image elements and assets will be downloaded from the smashing site.

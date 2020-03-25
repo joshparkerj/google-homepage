@@ -38,3 +38,35 @@ nav {
     vertical-align: super;
     font-size: smaller;
 }
+
+#posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+}
+
+#posts article {
+    grid-column: span 1;
+    padding: 40px;
+}
+
+#posts h1 {
+    position: absolute;
+    transform: rotate(90deg);
+    left: -90px;
+    top: 90px;
+}
+
+#posts .membership {
+    grid-column: span 2;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
