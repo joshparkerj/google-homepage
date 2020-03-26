@@ -70,3 +70,34 @@ img {
     display: block;
     margin: auto;
 }
+
+.book {
+    background-color: #59d798;
+}
+
+#community-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#community-links article {
+    grid-column: span 1;
+}
+
+.teeter {
+    transition: 500ms;
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 15px;
+    transform-origin: 0 100%;
+    transform: rotate(-15deg);
+    box-shadow: 0 20px 20px black;
+    width: 100px;
+    height: auto;
+    margin: 20px;
+}
+.teeter:hover {
+    transition: 500ms;
+    transform: rotate(0);
+    box-shadow: none;
+}
